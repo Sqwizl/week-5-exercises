@@ -1,0 +1,71 @@
+/* Reset default styles */
+:root {
+    --cyan: hsl(179, 62%, 43%);
+   --bright-yellow: hsl(71, 73%, 48%);
+    --light-cyan: rgb(106, 188, 188);
+    --light-grey:hsl(204, 43%, 93%);
+    --greyish-blue: hsl(218, 22%, 67%);
+    --white:hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+strong, h1, h2 {
+  font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Your styles here */
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    font-weight: 400;
+}
+
+/*Card Container*/
+.card {
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 635px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Section */
+.top {
+    padding: 40px;
+}
+
+.top h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--cyan);
+    font-weight: 700;
+}
+
+.guarantee {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--bright-yellow);
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--greyish-blue);
+}
