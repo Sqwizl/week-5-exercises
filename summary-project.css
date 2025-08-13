@@ -169,3 +169,48 @@ body {
     background: var(--gradient-circle);
     transform: scale(0.98);
 }
+
+/* 📱 Mobile: 375px */
+@media (max-width: 375px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .result {
+        padding: 30px 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .score-circle {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto;
+    }
+
+    .score {
+        font-size: 2.5rem;
+    }
+
+    .summary {
+        padding: 20px;
+    }
+
+    .summary-item {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .continue-btn {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+}
